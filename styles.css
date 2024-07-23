@@ -14,14 +14,15 @@ body {
     cursor: pointer;
 }
 
+#container {
+    width: 600px;
+}
+
 .rowDiv {
     display: flex;
 }
 
 .inDiv {
     border: 1px solid black;
-}
-
-.inDiv:hover {
-    background-color: aquamarine;
+    transition: background-color 0.3s;
 }
